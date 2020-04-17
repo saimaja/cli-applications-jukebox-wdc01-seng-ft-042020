@@ -1,9 +1,13 @@
 # Add your code here
-def say_hello(name)
-  "Hi #{name}!"
+def help
+ 
+end 
+  
+def list
 end
- 
-puts "Enter your name:"
-users_name = gets.strip
- 
-puts say_hello(users_name)
+
+def play
+end
+
+def exit
+end
