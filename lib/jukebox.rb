@@ -8,7 +8,7 @@ def help
 end 
   
 def list(songs)
-  while songs.length {|i|  
+  songs.each do {|i|  
 end
 
 def play
