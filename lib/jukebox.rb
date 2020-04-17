@@ -8,7 +8,7 @@ def help
 end 
   
 def list(songs)
-  songs.each do {|i|  
+  songs.each do {|i, song| puts "#{i+1}. #{song}"}
 end
 
 def play
