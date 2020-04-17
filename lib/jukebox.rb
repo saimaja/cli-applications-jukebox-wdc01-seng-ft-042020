@@ -12,7 +12,12 @@ def list(songs)
 end
 
 def play(songs)
-  puts 
+  puts "Please enter a song name or number:"
+  input = gets.strip
+  if input == songs
+    puts "Playing #{song}"
+  else
+    puts "Invalid input, please try again."
 end
 
 #def exit
