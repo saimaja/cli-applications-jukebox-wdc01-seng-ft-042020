@@ -44,4 +44,3 @@ def run
       puts "Invalid entry"
     end
   end
-end
