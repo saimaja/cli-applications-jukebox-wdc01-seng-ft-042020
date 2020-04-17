@@ -10,6 +10,7 @@ end
 def list(songs)
   songs.each do |i| 
     puts "#{i+1}. #{songs}"
+  end
 end
 
 def play
