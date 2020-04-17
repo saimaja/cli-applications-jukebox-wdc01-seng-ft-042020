@@ -7,7 +7,8 @@ def help
   puts "- exit : exits this program"
 end 
   
-def list
+def list(songs)
+  while songs.length {|i|  
 end
 
 def play
