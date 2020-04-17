@@ -30,8 +30,18 @@ end
 def run
   puts "Please enter a command:"
   input = gets.strip
-  
-  if input == "exit"
-    exit_jukebox
-  elsif input == ""
+  case input
+    when "exit"
+      exit_jukebox
+      break
+    when "play"
+      play(songs)
+    when "help"
+      help
+    when "list"
+      list(songs)
+    else
+      puts "Invalid entry"
+    end
+  end
 end
